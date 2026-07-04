@@ -21,10 +21,14 @@ h1, h2, h3, h4, h5, h6, p, div, span, label {
 
 .stButton > button {
     background-color: white;
-    color: #001f5b;
     font-weight: bold;
     border-radius: 10px;
     padding: 0.5rem 1rem;
+}
+
+.stButton > button p,
+.stButton > button span {
+    color: black !important;
 }
 </style>
 """, unsafe_allow_html=True)
